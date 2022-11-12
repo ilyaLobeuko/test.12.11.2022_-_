@@ -9,7 +9,7 @@ int main() {
 	int summa = 0;
 	int arr[n];
 	for (int i = 0; i < n; i++) {
-		arr[i] = rand() % 5;
+		arr[i] = rand() % 11 - 5;
 		cout << arr[i] << ' ';
 		summa += arr[i];
 	}
@@ -19,7 +19,7 @@ int main() {
 	int summa = 0;
 	int arr[n];
 	for (int i = 0; i < n; i++) {
-		arr[i] = rand() % 25;
+		arr[i] = rand() % 26 - 25;
 		if (arr[i] % 2 != 0) {
 			summa += arr[i];
 		}
@@ -30,7 +30,7 @@ int main() {
 	//int k;  // количество
 	//int arr[n];
 	//for (int i = 0; i < n; i++) {
-	//	arr[i] = rand() % 20;
+	//	arr[i] = rand() % 21 - 20;
 	//	if (arr[i] % 3 == 0 || arr[i] % 5 == 0 || arr[i] % 7 == 0) {
 	//		k += 1;
 	//	}
